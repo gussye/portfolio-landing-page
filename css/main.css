@@ -110,6 +110,27 @@ li a:hover {
   padding: 80px 10%;
   background-color: #d1faff;
 }
+.client-name {
+  font-weight: 700;
+}
+.ven {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+.vendor {
+  width: 20%;
+  margin: 0 1%;
+  border: 0.5px solid #157145;
+  box-shadow: 5px 5px 5px #157145;
+}
+.vendor h5 {
+  font-weight: bold;
+  padding: 10px 0;
+  color: #157145;
+}
+.vendor p {
+  padding: 0;
+}
 /*Vendors*/
 #vendors {
   padding: 80px 10%;
@@ -129,4 +150,24 @@ li a:hover {
 footer {
   background-color: #76bc96;
   padding: 0 10%;
+}
+/*Tablet display*/
+@media only screen and (max-width: 905px) {
+  .offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .offer {
+    width: 200px;
+  }
+  .ven {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .vendor {
+    width: 80%;
+    margin-top: 40px;
+  }
 }
