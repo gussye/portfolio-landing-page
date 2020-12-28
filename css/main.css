@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.sub-heading {
+  font-size: 20px;
+  color: #157145;
+  padding: 15px 0;
+}
+button {
+  height: 30px;
+  width: 200px;
+  box-shadow: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+p {
+  padding: 10px 100px;
+}
+/*Header*/
+header {
+  background-color: #76bc96;
+  width: 100%;
+  display: flex;
+  height: 60px;
+  padding: 0 10%;
+}
+header h3 {
+  font-size: 30px;
+  line-height: 60px;
+  color: #157145;
+}
+header nav {
+  margin-left: auto;
+}
+ul {
+  display: flex;
+}
+li {
+  padding: 0 20px;
+  line-height: 60px;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  color: #157145;
+}
+/*Main Section*/
+#main {
+  padding: 80px 10%;
+  background-color: #94d1b9;
+}
+#main button {
+  background-color: #157145;
+  color: #d1faff;
+}
+#main button:hover {
+  background-color: #76bc96;
+}
+/*Offers*/
+#offers {
+  padding: 80px 10%;
+  background-color: #d1faff;
+}
+.offerings {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+.offer {
+  width: 20%;
+  padding: 0 1%;
+}
+.offer h5 {
+  font-weight: bold;
+  padding: 10px;
+  color: #157145;
+}
+.offer p {
+  padding: 0;
+}
+/*Downloaads*/
+#downloads {
+  padding: 80px 10%;
+  background-color: #94d1b9;
+}
+#downloads button {
+  background-color: #94d1b9;
+  color: #157145;
+  border: 2px solid #157145;
+  margin: 0 20px;
+}
+#downloads button:hover {
+  background-color: #157145;
+  color: #d1faff;
+}
+/*Testimonial*/
+#testimonials {
+  padding: 80px 10%;
+  background-color: #d1faff;
+}
+/*Vendors*/
+#vendors {
+  padding: 80px 10%;
+  background-color: #94d1b9;
+}
+#vendors button {
+  background-color: #94d1b9;
+  color: #157145;
+  border: 2px solid #157145;
+  margin: 0 20px;
+}
+#vendors button:hover {
+  background-color: #157145;
+  color: #d1faff;
+}
+/*Footer*/
+footer {
+  background-color: #76bc96;
+  padding: 0 10%;
+}
